@@ -1,0 +1,23 @@
+2024-10-29
+1. 新增資料夾: weights
+   2023-10-28-18-33-37-20241029T075332Z-001.zip
+   2024-01-11-20-02-45-20241029T075327Z-001.zip
+
+2. 新增資料夾: demo_data
+   kinect_driller_seq.zip
+   mustard0.zip
+
+3. 新增資料夾: model_free_ref_views
+   linemod.zip
+   ycbv.zip
+
+4. 新增資料夾: train_data
+   gso
+   objaverse_path_tracing
+
+安裝docker
+cd docker
+docker pull wenbowen123/foundationpose && docker tag wenbowen123/foundationpose foundationpose  # Or to build from scratch: docker build --network host -t foundationpose .
+bash docker/run_container.sh
+
+
